@@ -235,7 +235,7 @@ textarea {
 @media only screen and (max-width: 768px) {
     
     html{
-        font-size: 50%;
+        font-size: 60.2%;
     }
     .navbar>ul {
         display: none;
@@ -255,12 +255,12 @@ textarea {
 
     .hamburger {
         display: inline-block;
-        /* font-size: 1.6rem; */
-        background-color: black;
+       
+        background-color: rgb(80, 62, 62);
         color: white;
         padding: .5rem;
         border-radius: .5rem;
-        text-align: center;
+        
     }
     .hero_container>div>h1{
         font-size: 1.8rem;
@@ -273,7 +273,7 @@ textarea {
 
     .info {
         flex-direction: column;
-        padding: 0;
+       
         width: 100%;
     }
 
@@ -286,10 +286,14 @@ textarea {
     }
 
     .description_container>h1 {
-        /* font-size: 2.rem; */
+      
         margin: 2.4rem 0 0.7rem 0;
     }
 
+    .show-more>label {
+      
+        color: #00a8b6 solid;
+    }
     .description_box>p {
         margin: 0.5rem;
     }
@@ -300,17 +304,13 @@ textarea {
         gap: 0.1rem;
     }
 
-    .show-more>label {
-        /* font-size: 1.6rem; */
-        color: #00a8b6 solid;
-    }
     .contact-section {
         width: 90%;
         margin: auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
         padding: 0.5rem;
-        text-align: left;
+        text-align: center;
        
     }
 }
