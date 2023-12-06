@@ -6,7 +6,8 @@
 
 <ul>
 <li>Technology use :- HTML, CSS, Javascript. </li>
-<li>Resources use for development :-  sample of website. <span>Link</span><a src="https://www.exodus.co.uk/destinations/europe-holidays/armenia-holidays" <sample web link</a> </li>
+<li>Resources use for development :-  sample of website. <span>Link</span><a src="https://www.exodus.co.uk/destinations/europe-holidays/armenia-holidays">Click here</a> </li>
+</ul>
 
 <p>Deployment
 and analysis <p>
