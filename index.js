@@ -24,10 +24,16 @@ document
   .addEventListener("click", handleClick);
 
 let w = window.innerWidth;
-
+let x=1
 if (w > 900) {
+  
   document.querySelector(".description_container>p").innerHTML =info;
+
 } else {
+  
+
   document.querySelector(".description_container>p").innerHTML =
   info.slice(0, 200) + "...";
+  
+ 
 }
