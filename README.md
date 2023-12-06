@@ -1,6 +1,5 @@
 # Travelopia-Assignment
 
-# Travelopia-Assignment
 
 <p>This project is a replica of Armenia Tours, which a  traveling booking website.</P>
 
