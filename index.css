@@ -1,10 +1,10 @@
 html{
     font-size: 62.5%;
-}
-body {
     padding: 0;
     margin: 0;
-    font-family: "Merriweather Sans", sans-serif;
+}
+body {
+    font-family: "Merriweather Sans", 'Segoe UI', Tahoma, sans-serif;
 }
 
 
@@ -39,8 +39,8 @@ body {
 }
 
 .navbar>ul>li:hover {
-    color: rgb(86, 100, 100);
-    text-decoration: underline solid rgb(197, 170, 170) .1rem;
+    color: rgb(142, 231, 231);
+    text-decoration: underline solid rgb(197, 170, 170) 0.2rem;
 }
 
 
@@ -169,7 +169,7 @@ body {
     gap: 1.8rem;
 }
 
-.contact-section>section>span {
+.contact-section>section>label {
     font-size: 1.6rem;
     color: #00a8b6;
     font-weight: 600;
