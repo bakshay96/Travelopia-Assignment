@@ -1,0 +1,316 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: .5rem;
+}
+
+.brand_logo {
+    width:18vh;
+}
+
+.hamburger_icon {
+    display: none;
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.7rem;
+    list-style-type: none
+}
+
+.navbar>ul>li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navbar>ul>li:hover {
+    color: rgb(86, 100, 100);
+    text-decoration: underline solid rgb(197, 170, 170) .1rem;
+}
+
+
+.navbar_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 1.6rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar_menu>a {
+    text-decoration: none;
+    color: #00a8b6;
+}
+
+.navbar_menu>a>span {
+    margin-right: 1.6rem;
+}
+
+.user_contact {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.user_contact>lable {
+    background-color: #00a8b6;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.user_contact>div {
+    border: .1px solid black;
+    padding: 1rem 1.6rem;
+}
+.user_contact>div>i{
+    padding: 0.06rem;
+
+}
+
+.hamburger{
+    display: none;
+}
+
+.hero_container {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_container>img {
+    width: 100vw;
+}
+
+.hero_container>div {
+    width: 50%;
+    left: 25%;
+    position: absolute;
+    bottom: 8%;
+    border-radius: 7px;
+    background: rgba(59, 29, 29, 0.525);
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    
+}
+
+.hero_container>div>h1 {
+    font-size: 4.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    width: 95%;
+   margin: auto;
+   border: 2px solid red;
+}
+
+.description_container {
+    width: 58%;
+    padding: 0 5rem 0 7rem;
+    font-size: 1.6rem;
+    color: #717171;
+}
+
+.description_container span {
+    color: #00a8b6;
+}
+
+.description_container>p {
+    display: inline-block;
+    transition: max-height 0.4s ease-out;
+}
+
+.show-more {
+    background-color: white;
+    border: none;
+    font-size: 1.6rem;
+    color: #00a8b6;
+    display: none;
+}
+.description_container>button>lable{
+    margin-right: .4rem;
+}
+.contact-section {
+    font-size: 1.5rem;
+    width: 35%;
+    display: flex;
+    padding: 0 4.8rem;
+    flex-direction: column;
+    margin-top: 4.8rem;
+    gap: 1.6rem;
+}
+
+.contact-section>section {
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 5px;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.contact-section>section>span {
+    font-size: 1.6rem;
+    color: #00a8b6;
+    font-weight: 600;
+}
+
+.contact-section>form {
+    background-color: #373e3e;
+    color: white;
+    padding: 1rem 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section>form>h2 {
+    margin: 0;
+}
+
+.contact-section>form>p {
+    margin-bottom: 2rem;
+}
+
+.contact-section>form>label {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+input,
+select {
+    padding: 0.7rem;
+    font-size: 1.6rem;
+}
+
+.more-info{
+    color: rgb(197, 197, 226);
+    text-decoration: underline solid ;
+    cursor: pointer;
+}
+textarea {
+    font-size: 1.6rem;
+    padding: 1rem;
+    font-family: inherit;
+}
+
+
+.contact-section>form>button {
+    background-color: #00a8b6;
+    padding: 1.6rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section>form>div {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    html{
+        font-size: 50%;
+    }
+    .navbar>ul {
+        display: none;
+    }
+
+    .brand_logo {
+        width:25vw;
+    }
+
+    .navbar>ul {
+        display: none;
+    }
+
+    .navbar .user_contact {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+        /* font-size: 1.6rem; */
+        background-color: black;
+        color: white;
+        padding: .5rem;
+        border-radius: .5rem;
+        text-align: center;
+    }
+    .hero_container>div>h1{
+        font-size: 1.8rem;
+    }
+
+    .hero_container>img {
+        height: 40vh;
+    }
+
+
+    .info {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .description_container {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description_container>h1 {
+        /* font-size: 2.rem; */
+        margin: 2.4rem 0 0.7rem 0;
+    }
+
+    .description_box>p {
+        margin: 0.5rem;
+    }
+
+    .show-more {
+        display: inline-block;
+        margin-bottom: .5rem;
+        gap: 0.1rem;
+    }
+
+    .show-more>label {
+        /* font-size: 1.6rem; */
+        color: #00a8b6 solid;
+    }
+    .contact-section {
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        text-align: left;
+       
+    }
+}
